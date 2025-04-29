@@ -95,3 +95,42 @@ TukeyHSD(anova_occ)
 # Boxplot to visualize income differences
 boxplot(Income ~ Education, data = CustomerData, main = "Income by Education", col = "lightblue")
 boxplot(Income ~ Occupation, data = CustomerData, main = "Income by Occupation", col = "lightgreen")
+
+# Load ggplot2
+library(ggplot2)
+
+# Bar plot for Education
+ggplot(CustomerData, aes(x = Education)) +
+  geom_bar(fill = "steelblue") +
+  ggtitle("Frequency of Education Levels")
+
+# Bar plot for Occupation
+ggplot(CustomerData, aes(x = Occupation)) +
+  geom_bar(fill = "darkgreen") +
+  ggtitle("Frequency of Occupation")
+
+# Histogram for Income
+ggplot(CustomerData, aes(x = Income)) +
+  geom_histogram(fill = "orange", bins = 10) +
+  ggtitle("Histogram of Income")
+
+# Boxplot for Age
+ggplot(CustomerData, aes(y = Age)) +
+  geom_boxplot(fill = "purple") +
+  ggtitle("Boxplot of Age")
+
+ggplot(CustomerData, aes(x = Age, y = Income)) +
+  geom_point(color = "dodgerblue") +
+  ggtitle("Age vs Income")
+
+ggplot(CustomerData, aes(x = Education, y = Income)) +
+  geom_boxplot(fill = "salmon") +
+  ggtitle("Income by Education")
+
+ggplot(CustomerData, aes(x = Age, y = Income, color = Sex)) +
+  geom_point(size = 3) +
+  ggtitle("Age vs Income by Sex")
+
+ggplot(CustomerData, aes(x = Education, fill = Marital_status)) +
+  geom_bar(position = "stack") +
+  ggtitle("Education by Marital Status")
