@@ -59,3 +59,43 @@ print(model)
 
 # Cross-validation results: RMSE, R^2, and MAE (Mean Absolute Error)
 model$results
+
+# Train a linear regression model with 5-fold cross-validation
+set.seed(123)
+
+train_control <- trainControl(method = "cv", number = 5)  # 5-fold cross-validation
+
+# Linear regression model
+lm_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                  method = "lm", trControl = train_control)
+
+# Display the model summary
+print(lm_model)
+
+# Evaluate model performance
+lm_model$results  # RMSE, Rsquared, MAE
+
+# Train a Random Forest model with 5-fold cross-validation
+set.seed(123)
+
+rf_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                  method = "rf", trControl = train_control)
+
+# Display the model summary
+print(rf_model)
+
+# Evaluate model performance
+rf_model$results  # RMSE, Rsquared, MAE
+
+# Train a Gradient Boosting Machine (GBM) model with 5-fold cross-validation
+set.seed(123)
+
+gbm_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                   method = "gbm", trControl = train_control, verbose = FALSE)
+
+# Display the model summary
+print(gbm_model)
+
+# Evaluate model performance
+gbm_model$results  # RMSE, Rsquared, MAE
+
