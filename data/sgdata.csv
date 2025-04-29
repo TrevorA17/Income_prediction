@@ -16,9 +16,9 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,28,high school,102899,skilled employee ,1
 1,non-single ,32,high school,88428,unemployed ,0
 0,single,53,high school,125550,skilled employee ,0
-0,single,25,other / unknown,157434,skilled employee ,2
+0,single,25,other,157434,skilled employee ,2
 1,non-single ,44,university,261952,management ,2
-0,single,31,other / unknown,144657,skilled employee ,1
+0,single,31,other,144657,skilled employee ,1
 0,single,48,high school,118777,skilled employee ,1
 0,single,44,high school,147511,skilled employee ,1
 0,single,48,high school,89804,unemployed ,0
@@ -30,16 +30,16 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,34,high school,119307,skilled employee ,1
 0,single,63,university,175882,skilled employee ,0
 0,non-single ,36,high school,159646,skilled employee ,1
-0,single,27,other / unknown,120131,skilled employee ,1
-0,single,30,other / unknown,162745,skilled employee ,2
+0,single,27,other,120131,skilled employee ,1
+0,single,30,other,162745,skilled employee ,2
 0,single,57,university,87605,unemployed ,0
 1,non-single ,33,high school,155569,management ,1
-0,single,25,other / unknown,104505,unemployed ,0
-0,single,31,other / unknown,143385,skilled employee ,2
+0,single,25,other,104505,unemployed ,0
+0,single,31,other,143385,skilled employee ,2
 0,single,37,high school,127676,skilled employee ,1
 0,single,37,high school,119276,skilled employee ,1
-0,single,24,other / unknown,92542,skilled employee ,1
-0,single,30,other / unknown,163329,management ,1
+0,single,24,other,92542,skilled employee ,1
+0,single,30,other,163329,management ,1
 0,non-single ,26,high school,130921,skilled employee ,0
 0,single,44,high school,133658,unemployed ,0
 0,non-single ,24,high school,155104,skilled employee ,1
@@ -49,12 +49,12 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,23,high school,65421,unemployed ,0
 0,single,39,high school,130500,unemployed ,0
 1,non-single ,28,high school,122831,skilled employee ,0
-0,single,29,other / unknown,84531,unemployed ,0
-0,single,30,other / unknown,180196,management ,2
-0,single,25,other / unknown,92058,skilled employee ,2
-0,single,31,other / unknown,117158,skilled employee ,0
+0,single,29,other,84531,unemployed ,0
+0,single,30,other,180196,management ,2
+0,single,25,other,92058,skilled employee ,2
+0,single,31,other,117158,skilled employee ,0
 0,single,57,university,135830,skilled employee ,1
-0,single,26,other / unknown,58258,unemployed ,0
+0,single,26,other,58258,unemployed ,0
 0,single,52,high school,202575,management ,2
 1,non-single ,31,high school,183657,skilled employee ,1
 1,non-single ,23,high school,152267,management ,1
@@ -62,7 +62,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,27,high school,106955,skilled employee ,2
 0,single,50,high school,123641,skilled employee ,1
 0,single,61,university,166410,management ,1
-0,single,25,other / unknown,227385,skilled employee ,2
+0,single,25,other,227385,skilled employee ,2
 1,non-single ,26,high school,118372,skilled employee ,1
 0,single,48,high school,148115,skilled employee ,1
 1,non-single ,29,high school,111069,skilled employee ,0
@@ -87,12 +87,12 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,29,high school,133783,management ,1
 1,non-single ,27,high school,110064,skilled employee ,2
 0,single,47,high school,241068,skilled employee ,1
-0,single,30,other / unknown,149022,management ,2
-0,single,28,other / unknown,92973,skilled employee ,2
+0,single,30,other,149022,management ,2
+0,single,28,other,92973,skilled employee ,2
 0,single,56,high school,110605,skilled employee ,1
 0,single,54,high school,116604,skilled employee ,1
 1,non-single ,33,high school,71070,unemployed ,0
-0,single,20,other / unknown,128678,skilled employee ,1
+0,single,20,other,128678,skilled employee ,1
 0,single,54,high school,165230,skilled employee ,2
 0,single,58,university,268340,skilled employee ,1
 1,non-single ,61,university,135070,skilled employee ,1
@@ -100,18 +100,18 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,36,high school,120153,skilled employee ,1
 0,single,36,high school,195465,management ,2
 0,non-single ,41,high school,93372,unemployed ,0
-0,single,24,other / unknown,110446,skilled employee ,0
+0,single,24,other,110446,skilled employee ,0
 1,non-single ,24,high school,95186,skilled employee ,1
 0,single,35,high school,115343,skilled employee ,1
 0,non-single ,26,high school,107276,skilled employee ,1
 0,single,39,high school,244716,management ,2
 0,single,39,high school,183108,management ,2
-0,single,32,other / unknown,152876,skilled employee ,2
+0,single,32,other,152876,skilled employee ,2
 1,non-single ,30,high school,165147,skilled employee ,0
 0,non-single ,35,high school,140520,skilled employee ,0
 0,non-single ,31,high school,124203,skilled employee ,1
 1,non-single ,23,high school,107205,skilled employee ,1
-0,single,28,other / unknown,121432,unemployed ,2
+0,single,28,other,121432,unemployed ,2
 1,non-single ,25,high school,162445,skilled employee ,0
 0,non-single ,35,high school,134112,skilled employee ,1
 0,single,47,high school,131842,skilled employee ,1
@@ -121,37 +121,37 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,36,high school,180495,management ,1
 1,non-single ,25,high school,104653,skilled employee ,2
 1,non-single ,41,university,166933,management ,2
-0,single,24,other / unknown,66118,unemployed ,0
+0,single,24,other,66118,unemployed ,0
 0,single,63,university,135754,skilled employee ,0
 1,non-single ,27,high school,116103,skilled employee ,2
-0,single,30,other / unknown,104293,skilled employee ,1
+0,single,30,other,104293,skilled employee ,1
 0,non-single ,40,high school,71702,unemployed ,0
-0,single,30,other / unknown,99066,skilled employee ,2
+0,single,30,other,99066,skilled employee ,2
 0,single,34,high school,143979,management ,2
 1,non-single ,29,high school,123818,skilled employee ,0
 1,non-single ,24,high school,176714,skilled employee ,2
-0,single,29,other / unknown,149249,skilled employee ,2
-0,single,27,other / unknown,77535,unemployed ,0
+0,single,29,other,149249,skilled employee ,2
+0,single,27,other,77535,unemployed ,0
 0,single,47,high school,116540,skilled employee ,1
 1,non-single ,21,high school,194728,skilled employee ,0
 1,non-single ,38,high school,109311,skilled employee ,2
-0,single,27,other / unknown,204723,skilled employee ,2
+0,single,27,other,204723,skilled employee ,2
 0,single,66,university,126003,unemployed ,0
 0,single,35,high school,123109,skilled employee ,1
 1,non-single ,44,university,108251,unemployed ,0
 0,non-single ,27,high school,89908,unemployed ,0
 1,non-single ,30,high school,176057,management ,1
-0,single,27,other / unknown,144332,management ,2
-0,single,22,other / unknown,101185,skilled employee ,1
+0,single,27,other,144332,management ,2
+0,single,22,other,101185,skilled employee ,1
 1,non-single ,23,high school,107406,skilled employee ,2
-0,single,30,other / unknown,140665,skilled employee ,1
+0,single,30,other,140665,skilled employee ,1
 1,non-single ,39,university,106461,skilled employee ,0
 1,non-single ,51,university,127825,skilled employee ,0
-0,single,28,other / unknown,133898,skilled employee ,1
+0,single,28,other,133898,skilled employee ,1
 0,single,46,high school,152383,skilled employee ,2
 0,single,42,high school,119926,skilled employee ,0
 0,single,38,high school,108784,skilled employee ,2
-0,single,24,other / unknown,153286,skilled employee ,1
+0,single,24,other,153286,skilled employee ,1
 1,non-single ,29,high school,214204,skilled employee ,2
 0,single,36,high school,208101,management ,2
 1,non-single ,20,high school,95355,skilled employee ,1
@@ -164,7 +164,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,36,high school,127833,skilled employee ,2
 0,single,70,university,224998,management ,2
 0,single,36,high school,124445,skilled employee ,2
-0,single,32,other / unknown,141116,skilled employee ,1
+0,single,32,other,141116,skilled employee ,1
 1,non-single ,33,high school,104276,skilled employee ,2
 1,non-single ,20,high school,147687,skilled employee ,2
 1,non-single ,25,high school,125168,skilled employee ,1
@@ -173,18 +173,18 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,26,high school,95159,skilled employee ,1
 1,non-single ,34,high school,153031,management ,2
 0,single,33,high school,108899,skilled employee ,0
-0,single,26,other / unknown,113515,skilled employee ,1
+0,single,26,other,113515,skilled employee ,1
 1,non-single ,53,university,211229,management ,0
 0,non-single ,42,university,121307,skilled employee ,0
 0,single,52,high school,131727,skilled employee ,2
-0,single,31,other / unknown,133574,management ,1
+0,single,31,other,133574,management ,1
 0,single,65,university,117334,skilled employee ,0
 0,non-single ,28,high school,177291,skilled employee ,2
 0,non-single ,30,high school,168763,management ,1
 0,single,40,high school,77720,unemployed ,0
 0,single,50,high school,176645,skilled employee ,2
 0,single,36,high school,106205,skilled employee ,1
-0,single,31,other / unknown,97785,skilled employee ,1
+0,single,31,other,97785,skilled employee ,1
 1,non-single ,74,graduate school,214364,management ,1
 0,single,68,university,74525,unemployed ,0
 0,non-single ,20,high school,98988,skilled employee ,0
@@ -193,7 +193,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,34,high school,116525,unemployed ,0
 0,single,36,high school,135302,skilled employee ,2
 0,non-single ,29,high school,106434,skilled employee ,1
-0,single,21,other / unknown,128350,skilled employee ,2
+0,single,21,other,128350,skilled employee ,2
 1,non-single ,34,high school,147626,management ,2
 1,non-single ,28,high school,102697,skilled employee ,0
 1,non-single ,27,high school,120262,skilled employee ,0
@@ -201,12 +201,12 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,40,high school,175223,management ,1
 0,single,52,high school,137467,skilled employee ,0
 0,non-single ,27,high school,65815,unemployed ,0
-0,single,26,other / unknown,129864,skilled employee ,1
+0,single,26,other,129864,skilled employee ,1
 0,non-single ,21,high school,88475,skilled employee ,1
 0,single,38,high school,74666,unemployed ,0
 0,single,38,high school,222294,management ,2
 0,single,43,high school,112878,skilled employee ,0
-0,single,26,other / unknown,103411,skilled employee ,2
+0,single,26,other,103411,skilled employee ,2
 0,non-single ,21,high school,112868,unemployed ,0
 0,single,55,high school,157940,skilled employee ,2
 0,single,33,high school,115835,skilled employee ,2
@@ -215,78 +215,78 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,66,university,178967,management ,0
 0,single,51,high school,132767,skilled employee ,0
 1,non-single ,39,university,86152,unemployed ,0
-0,single,31,other / unknown,114528,skilled employee ,2
-0,single,23,other / unknown,133912,skilled employee ,1
+0,single,31,other,114528,skilled employee ,2
+0,single,23,other,133912,skilled employee ,1
 0,non-single ,24,high school,81210,unemployed ,0
 1,non-single ,64,graduate school,131242,skilled employee ,0
 0,non-single ,26,high school,68804,unemployed ,0
 1,non-single ,23,high school,96961,skilled employee ,1
-0,single,30,other / unknown,90719,skilled employee ,2
-0,single,32,other / unknown,114116,skilled employee ,1
-0,single,30,other / unknown,128639,skilled employee ,1
-0,single,27,other / unknown,106623,skilled employee ,1
-0,single,27,other / unknown,236264,skilled employee ,1
+0,single,30,other,90719,skilled employee ,2
+0,single,32,other,114116,skilled employee ,1
+0,single,30,other,128639,skilled employee ,1
+0,single,27,other,106623,skilled employee ,1
+0,single,27,other,236264,skilled employee ,1
 0,single,53,high school,207783,management ,1
-0,single,22,other / unknown,91739,skilled employee ,1
-0,single,22,other / unknown,107780,skilled employee ,2
-0,single,26,other / unknown,139157,skilled employee ,2
+0,single,22,other,91739,skilled employee ,1
+0,single,22,other,107780,skilled employee ,2
+0,single,26,other,139157,skilled employee ,2
 0,single,51,high school,121751,unemployed ,0
 0,single,35,high school,121974,skilled employee ,0
 0,non-single ,25,high school,70320,unemployed ,0
 0,single,42,high school,78327,unemployed ,0
-0,single,30,other / unknown,131433,management ,0
-0,single,23,other / unknown,167076,unemployed ,2
+0,single,30,other,131433,management ,0
+0,single,23,other,167076,unemployed ,2
 0,non-single ,61,university,130788,unemployed ,0
 1,non-single ,35,high school,107408,skilled employee ,1
 0,single,39,high school,115323,skilled employee ,1
 1,non-single ,29,high school,99012,skilled employee ,0
 0,single,51,high school,115996,skilled employee ,1
-0,single,24,other / unknown,123353,skilled employee ,1
+0,single,24,other,123353,skilled employee ,1
 1,non-single ,27,high school,100008,skilled employee ,0
 1,non-single ,35,high school,125105,unemployed ,0
-0,single,25,other / unknown,92020,skilled employee ,2
+0,single,25,other,92020,skilled employee ,2
 0,single,52,high school,108365,skilled employee ,2
 0,single,35,high school,112979,skilled employee ,0
-0,single,26,other / unknown,117221,skilled employee ,1
+0,single,26,other,117221,skilled employee ,1
 1,non-single ,22,high school,88800,skilled employee ,2
 1,non-single ,39,university,115099,unemployed ,0
 1,non-single ,46,university,113399,unemployed ,0
 1,non-single ,24,high school,115879,skilled employee ,1
 0,single,35,high school,141270,skilled employee ,2
-0,single,24,other / unknown,107633,skilled employee ,1
-0,single,27,other / unknown,131751,unemployed ,0
+0,single,24,other,107633,skilled employee ,1
+0,single,27,other,131751,unemployed ,0
 0,single,35,high school,83687,unemployed ,0
 0,non-single ,29,high school,106828,skilled employee ,2
 1,non-single ,23,high school,135537,skilled employee ,1
 1,non-single ,57,university,107142,unemployed ,0
-0,single,27,other / unknown,97446,skilled employee ,1
+0,single,27,other,97446,skilled employee ,1
 1,non-single ,55,university,126357,skilled employee ,2
 0,single,36,high school,169617,management ,1
 1,non-single ,57,university,108945,unemployed ,0
-0,single,32,other / unknown,67345,unemployed ,0
+0,single,32,other,67345,unemployed ,0
 0,single,37,high school,106215,skilled employee ,0
 0,single,36,high school,149237,skilled employee ,0
 1,non-single ,38,high school,112124,skilled employee ,0
 0,non-single ,45,university,215150,management ,2
-0,single,25,other / unknown,89534,skilled employee ,1
-0,single,32,other / unknown,111082,skilled employee ,2
+0,single,25,other,89534,skilled employee ,1
+0,single,32,other,111082,skilled employee ,2
 1,non-single ,37,high school,137069,skilled employee ,1
 0,single,36,high school,244541,management ,2
-0,single,28,other / unknown,120712,skilled employee ,1
+0,single,28,other,120712,skilled employee ,1
 0,non-single ,34,high school,175367,unemployed ,0
-0,single,32,other / unknown,111418,skilled employee ,1
+0,single,32,other,111418,skilled employee ,1
 1,non-single ,26,high school,110913,skilled employee ,0
 0,non-single ,49,university,84267,unemployed ,0
 1,non-single ,32,high school,136886,skilled employee ,2
-0,single,29,other / unknown,144884,management ,2
-0,single,23,other / unknown,151180,skilled employee ,1
+0,single,29,other,144884,management ,2
+0,single,23,other,151180,skilled employee ,1
 0,single,50,high school,114997,skilled employee ,1
 0,single,49,high school,100961,unemployed ,0
 0,single,63,university,124849,skilled employee ,2
 0,non-single ,37,high school,152308,skilled employee ,2
 1,non-single ,35,high school,167945,unemployed ,1
-0,single,26,other / unknown,126706,skilled employee ,2
-0,single,31,other / unknown,210017,management ,2
+0,single,26,other,126706,skilled employee ,2
+0,single,31,other,210017,management ,2
 1,non-single ,49,university,125665,skilled employee ,1
 0,non-single ,48,university,111184,skilled employee ,1
 0,non-single ,26,high school,94134,skilled employee ,0
@@ -298,7 +298,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,20,high school,127928,skilled employee ,2
 0,single,45,high school,78253,unemployed ,0
 0,single,43,high school,118446,skilled employee ,1
-0,single,32,other / unknown,161379,skilled employee ,2
+0,single,32,other,161379,skilled employee ,2
 1,non-single ,54,university,56622,unemployed ,0
 1,non-single ,42,university,146117,skilled employee ,1
 0,single,37,high school,90418,unemployed ,0
@@ -310,34 +310,34 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,24,high school,107114,skilled employee ,2
 0,non-single ,22,high school,62263,unemployed ,0
 0,single,40,high school,92567,unemployed ,0
-0,single,25,other / unknown,146349,skilled employee ,0
+0,single,25,other,146349,skilled employee ,0
 1,non-single ,26,high school,141825,skilled employee ,1
 0,non-single ,25,high school,68582,unemployed ,0
-0,single,29,other / unknown,85476,unemployed ,0
-0,single,31,other / unknown,111091,skilled employee ,2
+0,single,29,other,85476,unemployed ,0
+0,single,31,other,111091,skilled employee ,2
 0,single,38,high school,67110,unemployed ,0
 1,non-single ,48,university,126154,unemployed ,0
-0,single,32,other / unknown,92257,skilled employee ,2
+0,single,32,other,92257,skilled employee ,2
 1,non-single ,27,high school,93605,unemployed ,0
 0,non-single ,28,high school,165190,management ,0
 0,non-single ,32,high school,107195,skilled employee ,0
 0,single,34,high school,145059,management ,0
-0,single,28,other / unknown,148363,skilled employee ,0
+0,single,28,other,148363,skilled employee ,0
 1,non-single ,36,high school,105681,skilled employee ,2
 0,single,39,high school,93732,unemployed ,0
 0,single,49,high school,154778,skilled employee ,2
 1,non-single ,34,high school,149356,skilled employee ,2
-0,single,31,other / unknown,145670,skilled employee ,1
-0,single,28,other / unknown,101589,skilled employee ,2
+0,single,31,other,145670,skilled employee ,1
+0,single,28,other,101589,skilled employee ,2
 0,single,75,university,213333,management ,1
 1,non-single ,30,high school,122420,skilled employee ,0
 1,non-single ,24,high school,209856,management ,1
 1,non-single ,24,high school,181003,unemployed ,0
-0,single,23,other / unknown,117804,skilled employee ,1
+0,single,23,other,117804,skilled employee ,1
 0,non-single ,44,university,160650,management ,1
 1,non-single ,23,high school,84611,unemployed ,0
 1,non-single ,24,high school,98479,skilled employee ,2
-0,single,28,other / unknown,122359,skilled employee ,2
+0,single,28,other,122359,skilled employee ,2
 0,non-single ,31,high school,81394,unemployed ,0
 1,non-single ,24,high school,150372,skilled employee ,1
 1,non-single ,26,high school,92385,unemployed ,0
@@ -345,27 +345,27 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,33,high school,167939,management ,1
 0,single,37,high school,115426,unemployed ,0
 1,non-single ,43,university,85402,unemployed ,0
-0,single,23,other / unknown,95815,skilled employee ,2
+0,single,23,other,95815,skilled employee ,2
 1,non-single ,23,high school,97518,unemployed ,0
 0,single,34,high school,87355,unemployed ,0
-0,single,32,other / unknown,145933,skilled employee ,1
+0,single,32,other,145933,skilled employee ,1
 1,non-single ,23,high school,97307,skilled employee ,0
 1,non-single ,29,high school,108434,skilled employee ,2
 0,single,38,high school,151312,management ,1
-0,single,28,other / unknown,141847,skilled employee ,1
+0,single,28,other,141847,skilled employee ,1
 0,single,46,high school,130675,skilled employee ,2
-0,single,23,other / unknown,69309,unemployed ,0
+0,single,23,other,69309,unemployed ,0
 0,single,49,high school,121466,skilled employee ,2
-0,single,26,other / unknown,153586,management ,2
+0,single,26,other,153586,management ,2
 0,non-single ,28,high school,92849,skilled employee ,0
 1,non-single ,23,high school,108539,skilled employee ,2
 0,single,61,university,129556,skilled employee ,2
 0,single,37,high school,170146,management ,0
 1,non-single ,36,high school,135383,skilled employee ,1
 0,non-single ,21,high school,96769,skilled employee ,2
-0,single,25,other / unknown,43684,unemployed ,0
+0,single,25,other,43684,unemployed ,0
 0,single,36,high school,103521,skilled employee ,0
-0,single,27,other / unknown,118499,skilled employee ,1
+0,single,27,other,118499,skilled employee ,1
 1,non-single ,22,high school,119684,skilled employee ,2
 0,single,42,high school,126586,skilled employee ,1
 1,non-single ,40,university,136812,skilled employee ,2
@@ -382,27 +382,27 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,39,high school,112347,skilled employee ,2
 1,non-single ,38,high school,260977,management ,2
 1,non-single ,25,high school,99354,skilled employee ,0
-0,single,26,other / unknown,111509,skilled employee ,2
-0,single,26,other / unknown,105252,unemployed ,0
+0,single,26,other,111509,skilled employee ,2
+0,single,26,other,105252,unemployed ,0
 1,non-single ,25,high school,108522,skilled employee ,0
 1,non-single ,21,high school,94655,skilled employee ,1
 0,single,40,high school,201699,management ,1
-0,single,27,other / unknown,139868,skilled employee ,2
+0,single,27,other,139868,skilled employee ,2
 1,non-single ,27,high school,102543,skilled employee ,1
 0,non-single ,30,high school,134467,management ,2
 1,non-single ,19,high school,111187,unemployed ,0
 0,single,39,high school,152302,management ,1
 1,non-single ,31,high school,110610,skilled employee ,2
-0,single,31,other / unknown,137827,management ,2
-0,single,32,other / unknown,220923,skilled employee ,2
+0,single,31,other,137827,management ,2
+0,single,32,other,220923,skilled employee ,2
 1,non-single ,55,university,165717,management ,2
 0,non-single ,46,university,122299,skilled employee ,0
 0,non-single ,46,university,120499,skilled employee ,0
 1,non-single ,43,university,126449,unemployed ,0
 0,non-single ,39,high school,108315,skilled employee ,2
 0,non-single ,28,high school,112515,skilled employee ,1
-0,single,27,other / unknown,164559,skilled employee ,1
-0,single,27,other / unknown,59238,unemployed ,0
+0,single,27,other,164559,skilled employee ,1
+0,single,27,other,59238,unemployed ,0
 0,single,43,high school,131133,skilled employee ,0
 0,non-single ,22,high school,109188,skilled employee ,0
 0,single,43,high school,115393,skilled employee ,1
@@ -420,20 +420,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,31,high school,175530,management ,1
 1,non-single ,33,high school,112422,skilled employee ,1
 1,non-single ,20,high school,154134,skilled employee ,2
-0,single,30,other / unknown,112401,skilled employee ,1
+0,single,30,other,112401,skilled employee ,1
 0,single,47,high school,85690,unemployed ,0
 0,single,34,high school,145896,management ,2
 1,non-single ,25,high school,122552,skilled employee ,2
 0,non-single ,21,high school,115494,skilled employee ,2
-0,single,29,other / unknown,109467,skilled employee ,0
+0,single,29,other,109467,skilled employee ,0
 0,single,46,high school,148226,skilled employee ,2
-0,single,20,other / unknown,88559,skilled employee ,1
+0,single,20,other,88559,skilled employee ,1
 1,non-single ,55,university,62393,unemployed ,0
 0,single,74,university,122133,unemployed ,0
-0,single,29,other / unknown,230883,management ,2
+0,single,29,other,230883,management ,2
 0,single,36,high school,136689,management ,2
 0,non-single ,33,high school,109145,skilled employee ,0
-0,single,25,other / unknown,100449,skilled employee ,2
+0,single,25,other,100449,skilled employee ,2
 0,non-single ,25,high school,106253,skilled employee ,0
 0,non-single ,23,high school,84747,unemployed ,0
 1,non-single ,37,high school,149465,skilled employee ,1
@@ -441,7 +441,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,26,high school,51681,unemployed ,0
 0,single,39,high school,139198,management ,1
 1,non-single ,30,high school,106577,skilled employee ,1
-0,single,29,other / unknown,117372,skilled employee ,2
+0,single,29,other,117372,skilled employee ,2
 0,single,41,high school,69609,unemployed ,0
 1,non-single ,30,high school,178947,management ,2
 1,non-single ,41,university,81743,unemployed ,0
@@ -449,16 +449,16 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,35,high school,121650,skilled employee ,0
 1,non-single ,55,university,172639,management ,2
 0,non-single ,61,university,175740,skilled employee ,1
-0,single,30,other / unknown,220050,management ,2
+0,single,30,other,220050,management ,2
 1,non-single ,29,high school,95200,skilled employee ,1
 0,single,34,high school,113609,skilled employee ,1
 0,single,35,high school,143552,management ,2
-0,single,31,other / unknown,130973,skilled employee ,2
+0,single,31,other,130973,skilled employee ,2
 1,non-single ,29,high school,145946,management ,2
 0,single,36,high school,126206,skilled employee ,1
 0,single,35,high school,120426,skilled employee ,0
 1,non-single ,27,high school,91925,skilled employee ,2
-0,single,32,other / unknown,129630,skilled employee ,2
+0,single,32,other,129630,skilled employee ,2
 0,single,37,high school,124268,skilled employee ,2
 0,single,36,high school,105240,skilled employee ,1
 1,non-single ,34,high school,162180,management ,0
@@ -466,21 +466,21 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,34,high school,105843,skilled employee ,2
 0,single,63,university,138327,skilled employee ,1
 1,non-single ,29,high school,76154,unemployed ,0
-0,single,32,other / unknown,155012,skilled employee ,1
+0,single,32,other,155012,skilled employee ,1
 1,non-single ,26,high school,114369,skilled employee ,1
 0,single,35,high school,102839,unemployed ,0
 0,non-single ,22,high school,132796,skilled employee ,0
 1,non-single ,23,high school,89742,skilled employee ,2
-0,single,28,other / unknown,58615,unemployed ,0
+0,single,28,other,58615,unemployed ,0
 0,single,36,high school,130603,management ,2
 0,non-single ,33,high school,110340,skilled employee ,0
 1,non-single ,26,high school,117729,skilled employee ,2
-0,single,24,other / unknown,130808,skilled employee ,0
-0,single,25,other / unknown,147402,skilled employee ,2
+0,single,24,other,130808,skilled employee ,0
+0,single,25,other,147402,skilled employee ,2
 0,single,39,high school,93567,unemployed ,0
 0,single,44,high school,109289,skilled employee ,1
 1,non-single ,23,high school,98742,unemployed ,0
-0,single,26,other / unknown,101270,skilled employee ,0
+0,single,26,other,101270,skilled employee ,0
 1,non-single ,57,university,187835,skilled employee ,1
 1,non-single ,30,high school,140741,skilled employee ,0
 0,single,44,high school,133265,skilled employee ,2
@@ -488,14 +488,14 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,52,high school,131021,skilled employee ,2
 1,non-single ,62,university,152620,skilled employee ,2
 0,single,35,high school,85033,unemployed ,0
-0,single,26,other / unknown,114514,skilled employee ,1
-0,single,26,other / unknown,99307,skilled employee ,1
+0,single,26,other,114514,skilled employee ,1
+0,single,26,other,99307,skilled employee ,1
 1,non-single ,42,university,219451,management ,2
 1,non-single ,27,high school,114007,skilled employee ,0
 0,single,38,high school,102846,skilled employee ,0
 0,single,39,high school,81483,unemployed ,0
 0,non-single ,20,high school,107779,skilled employee ,2
-0,single,29,other / unknown,222360,management ,2
+0,single,29,other,222360,management ,2
 0,single,40,high school,107125,skilled employee ,0
 0,non-single ,32,high school,80080,unemployed ,0
 0,non-single ,28,high school,129600,skilled employee ,0
@@ -504,14 +504,14 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,49,university,144461,skilled employee ,2
 0,single,38,high school,124487,skilled employee ,0
 1,non-single ,24,high school,97826,skilled employee ,0
-0,single,27,other / unknown,64105,unemployed ,0
+0,single,27,other,64105,unemployed ,0
 0,single,36,high school,156374,skilled employee ,2
 0,single,34,high school,205383,management ,2
 0,non-single ,28,high school,98964,skilled employee ,2
 0,single,45,high school,221842,management ,2
-0,single,26,other / unknown,88027,skilled employee ,2
-0,single,32,other / unknown,160513,management ,2
-0,single,26,other / unknown,124536,skilled employee ,2
+0,single,26,other,88027,skilled employee ,2
+0,single,32,other,160513,management ,2
+0,single,26,other,124536,skilled employee ,2
 0,non-single ,20,high school,93634,skilled employee ,0
 0,single,54,high school,124725,skilled employee ,0
 1,non-single ,37,high school,102456,skilled employee ,0
@@ -524,16 +524,16 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,53,high school,170622,skilled employee ,1
 1,non-single ,23,high school,132426,skilled employee ,1
 1,non-single ,26,high school,77519,unemployed ,0
-0,single,30,other / unknown,169405,skilled employee ,2
+0,single,30,other,169405,skilled employee ,2
 1,non-single ,31,high school,120030,skilled employee ,0
 0,single,42,high school,77933,unemployed ,0
 0,non-single ,31,high school,109892,skilled employee ,1
 0,single,41,high school,69062,unemployed ,0
-0,single,32,other / unknown,116348,skilled employee ,0
+0,single,32,other,116348,skilled employee ,0
 1,non-single ,28,high school,137188,skilled employee ,1
 0,non-single ,41,high school,110199,skilled employee ,0
 0,non-single ,26,high school,109890,skilled employee ,1
-0,single,25,other / unknown,109751,skilled employee ,2
+0,single,25,other,109751,skilled employee ,2
 0,non-single ,33,high school,129651,skilled employee ,1
 1,non-single ,75,graduate school,170113,management ,1
 1,non-single ,37,high school,140285,skilled employee ,1
@@ -541,26 +541,26 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,45,university,120262,unemployed ,0
 0,non-single ,23,high school,105137,skilled employee ,1
 0,single,60,university,127371,skilled employee ,0
-0,single,31,other / unknown,145689,skilled employee ,0
+0,single,31,other,145689,skilled employee ,0
 0,single,34,high school,102617,unemployed ,1
 0,single,61,university,90709,unemployed ,0
 0,single,43,high school,107099,skilled employee ,1
 1,non-single ,37,high school,116021,skilled employee ,2
-0,single,32,other / unknown,100426,skilled employee ,2
+0,single,32,other,100426,skilled employee ,2
 1,non-single ,24,high school,62249,unemployed ,0
 0,single,35,high school,172957,skilled employee ,1
 1,non-single ,23,high school,95003,skilled employee ,1
 0,single,45,high school,109698,unemployed ,0
 0,non-single ,34,high school,157376,skilled employee ,0
-0,single,27,other / unknown,123191,skilled employee ,2
+0,single,27,other,123191,skilled employee ,2
 1,non-single ,67,graduate school,171052,management ,0
-0,single,22,other / unknown,99328,skilled employee ,0
+0,single,22,other,99328,skilled employee ,0
 1,non-single ,28,high school,133799,skilled employee ,2
 1,non-single ,29,high school,138256,skilled employee ,2
-0,single,27,other / unknown,115638,skilled employee ,0
-0,single,31,other / unknown,82238,unemployed ,0
+0,single,27,other,115638,skilled employee ,0
+0,single,31,other,82238,unemployed ,0
 0,single,49,high school,127543,skilled employee ,1
-0,single,24,other / unknown,63987,unemployed ,0
+0,single,24,other,63987,unemployed ,0
 1,non-single ,29,high school,114784,skilled employee ,0
 0,single,37,high school,217450,skilled employee ,1
 0,single,37,high school,173751,management ,2
@@ -573,20 +573,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,38,high school,147472,skilled employee ,0
 1,non-single ,26,high school,169991,management ,0
 1,non-single ,22,high school,62381,unemployed ,0
-0,single,27,other / unknown,70926,unemployed ,0
+0,single,27,other,70926,unemployed ,0
 1,non-single ,24,high school,113004,skilled employee ,1
 1,non-single ,27,high school,125760,skilled employee ,0
 1,non-single ,33,high school,111918,skilled employee ,2
 0,non-single ,27,high school,120674,skilled employee ,1
 0,non-single ,27,high school,63597,unemployed ,0
-0,single,30,other / unknown,103069,skilled employee ,1
+0,single,30,other,103069,skilled employee ,1
 0,single,49,high school,108079,unemployed ,0
 1,non-single ,26,high school,101159,skilled employee ,1
 0,single,33,high school,88211,unemployed ,0
 1,non-single ,52,university,159052,management ,1
 1,non-single ,20,high school,102623,skilled employee ,2
 0,single,36,high school,115589,skilled employee ,0
-0,single,21,other / unknown,59127,unemployed ,0
+0,single,21,other,59127,unemployed ,0
 0,non-single ,47,university,82240,unemployed ,0
 0,single,60,university,129425,skilled employee ,1
 1,non-single ,58,university,87058,unemployed ,0
@@ -597,14 +597,14 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,32,high school,94058,unemployed ,0
 1,non-single ,23,high school,99285,skilled employee ,1
 0,single,36,high school,108432,unemployed ,0
-0,single,31,other / unknown,111369,skilled employee ,0
-0,single,32,other / unknown,122612,skilled employee ,2
+0,single,31,other,111369,skilled employee ,0
+0,single,32,other,122612,skilled employee ,2
 1,non-single ,45,university,134350,skilled employee ,0
 1,non-single ,30,high school,108838,skilled employee ,2
 1,non-single ,34,high school,90852,unemployed ,0
 1,non-single ,28,high school,151580,management ,2
 1,non-single ,23,high school,115681,skilled employee ,1
-0,single,22,other / unknown,131699,skilled employee ,1
+0,single,22,other,131699,skilled employee ,1
 0,single,74,university,192481,management ,1
 1,non-single ,50,university,155122,skilled employee ,2
 0,single,33,high school,106015,skilled employee ,2
@@ -615,36 +615,36 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,22,high school,119511,skilled employee ,2
 1,non-single ,22,high school,102000,skilled employee ,0
 0,single,48,high school,254449,management ,1
-0,single,27,other / unknown,208446,management ,2
+0,single,27,other,208446,management ,2
 0,single,37,high school,124805,skilled employee ,0
 1,non-single ,21,high school,139379,skilled employee ,0
 0,non-single ,49,university,78296,unemployed ,0
-0,single,27,other / unknown,125598,skilled employee ,1
-0,single,32,other / unknown,100215,skilled employee ,2
+0,single,27,other,125598,skilled employee ,1
+0,single,32,other,100215,skilled employee ,2
 0,non-single ,38,high school,130951,skilled employee ,2
 1,non-single ,22,high school,102480,skilled employee ,2
 0,single,65,university,136812,skilled employee ,1
 0,single,35,high school,106919,skilled employee ,1
 0,single,41,high school,131020,skilled employee ,2
-0,single,29,other / unknown,119429,skilled employee ,1
+0,single,29,other,119429,skilled employee ,1
 0,single,36,high school,154521,skilled employee ,1
 0,single,64,university,117842,unemployed ,0
 1,non-single ,28,high school,124566,skilled employee ,2
 0,single,44,high school,110009,skilled employee ,2
-0,single,23,other / unknown,101210,skilled employee ,1
+0,single,23,other,101210,skilled employee ,1
 1,non-single ,19,high school,101258,skilled employee ,0
 1,non-single ,25,high school,79045,unemployed ,0
 0,single,47,high school,110866,skilled employee ,0
 1,non-single ,28,high school,129640,skilled employee ,2
-0,single,21,other / unknown,227021,skilled employee ,1
+0,single,21,other,227021,skilled employee ,1
 1,non-single ,34,high school,108549,skilled employee ,1
-0,single,26,other / unknown,122693,skilled employee ,0
+0,single,26,other,122693,skilled employee ,0
 1,non-single ,27,high school,35832,unemployed ,0
 0,single,38,high school,81870,unemployed ,0
 0,single,40,high school,179790,management ,2
 0,non-single ,33,high school,107158,skilled employee ,1
 0,non-single ,32,high school,136638,management ,1
-0,single,27,other / unknown,158147,skilled employee ,2
+0,single,27,other,158147,skilled employee ,2
 0,non-single ,32,high school,132587,skilled employee ,2
 1,non-single ,26,high school,128140,skilled employee ,2
 0,single,38,high school,117405,skilled employee ,1
@@ -654,7 +654,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,45,high school,118006,skilled employee ,1
 0,single,42,high school,223630,management ,2
 0,single,35,high school,110442,skilled employee ,0
-0,single,22,other / unknown,115691,skilled employee ,2
+0,single,22,other,115691,skilled employee ,2
 0,single,41,high school,80232,unemployed ,0
 0,single,37,high school,187647,skilled employee ,1
 1,non-single ,28,high school,138952,skilled employee ,1
@@ -664,13 +664,13 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,50,high school,121400,skilled employee ,1
 0,single,35,high school,137000,management ,2
 1,non-single ,50,university,105031,unemployed ,0
-0,single,27,other / unknown,172153,management ,2
+0,single,27,other,172153,management ,2
 0,single,34,high school,170184,skilled employee ,1
 1,non-single ,27,high school,123279,skilled employee ,1
 0,single,43,high school,140795,skilled employee ,0
 0,single,47,high school,144456,skilled employee ,0
-0,single,27,other / unknown,104773,unemployed ,0
-0,single,31,other / unknown,153353,skilled employee ,1
+0,single,27,other,104773,unemployed ,0
+0,single,31,other,153353,skilled employee ,1
 0,single,42,high school,223018,management ,1
 0,non-single ,24,high school,129177,skilled employee ,2
 0,single,41,high school,114475,unemployed ,1
@@ -683,21 +683,21 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,37,high school,111394,skilled employee ,1
 0,non-single ,33,high school,103577,skilled employee ,2
 0,non-single ,47,university,149545,skilled employee ,1
-0,single,31,other / unknown,171857,unemployed ,0
+0,single,31,other,171857,unemployed ,0
 0,single,34,high school,149782,skilled employee ,1
-0,single,27,other / unknown,112470,skilled employee ,1
-0,single,30,other / unknown,133907,skilled employee ,2
+0,single,27,other,112470,skilled employee ,1
+0,single,30,other,133907,skilled employee ,2
 0,single,35,high school,127849,skilled employee ,1
-0,single,31,other / unknown,160279,skilled employee ,2
+0,single,31,other,160279,skilled employee ,2
 0,non-single ,25,high school,92366,skilled employee ,2
 1,non-single ,25,high school,104794,unemployed ,0
-0,single,29,other / unknown,133436,skilled employee ,1
+0,single,29,other,133436,skilled employee ,1
 0,single,44,high school,110374,unemployed ,0
-0,single,28,other / unknown,104263,skilled employee ,1
+0,single,28,other,104263,skilled employee ,1
 0,single,50,high school,138752,skilled employee ,0
-0,single,29,other / unknown,102723,skilled employee ,0
+0,single,29,other,102723,skilled employee ,0
 1,non-single ,38,high school,46297,unemployed ,0
-0,single,24,other / unknown,96425,skilled employee ,1
+0,single,24,other,96425,skilled employee ,1
 0,single,40,high school,158197,management ,1
 1,non-single ,29,high school,98008,unemployed ,0
 0,single,46,high school,157473,skilled employee ,0
@@ -705,19 +705,19 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,41,high school,139236,skilled employee ,1
 1,non-single ,32,high school,125890,skilled employee ,2
 1,non-single ,35,high school,173124,skilled employee ,1
-0,single,24,other / unknown,164621,skilled employee ,1
+0,single,24,other,164621,skilled employee ,1
 1,non-single ,25,high school,124539,skilled employee ,1
 1,non-single ,25,high school,107614,skilled employee ,1
 0,single,37,high school,88849,unemployed ,0
-0,single,32,other / unknown,148566,management ,2
+0,single,32,other,148566,management ,2
 1,non-single ,35,high school,106515,skilled employee ,2
 0,single,46,high school,150465,management ,1
-0,single,25,other / unknown,60868,unemployed ,0
-0,single,27,other / unknown,255198,management ,2
+0,single,25,other,60868,unemployed ,0
+0,single,27,other,255198,management ,2
 0,single,63,university,183178,skilled employee ,1
 0,single,40,high school,121448,skilled employee ,2
-0,single,32,other / unknown,129975,management ,2
-0,single,31,other / unknown,132950,skilled employee ,2
+0,single,32,other,129975,management ,2
+0,single,31,other,132950,skilled employee ,2
 0,non-single ,31,high school,169314,skilled employee ,1
 0,single,34,high school,147958,management ,1
 1,non-single ,24,high school,139896,skilled employee ,2
@@ -730,7 +730,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,59,university,184753,skilled employee ,1
 0,non-single ,36,high school,162521,skilled employee ,2
 0,single,33,high school,156794,skilled employee ,1
-0,single,21,other / unknown,65827,unemployed ,0
+0,single,21,other,65827,unemployed ,0
 1,non-single ,44,university,88490,unemployed ,0
 1,non-single ,28,high school,154919,skilled employee ,2
 1,non-single ,37,high school,129058,skilled employee ,0
@@ -739,15 +739,15 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,35,high school,113468,unemployed ,0
 0,single,45,high school,190803,management ,2
 1,non-single ,26,high school,121423,unemployed ,0
-0,single,32,other / unknown,121347,skilled employee ,1
-0,single,23,other / unknown,67408,unemployed ,0
+0,single,32,other,121347,skilled employee ,1
+0,single,23,other,67408,unemployed ,0
 0,single,41,high school,123043,skilled employee ,1
-0,single,22,other / unknown,128387,skilled employee ,2
-0,single,30,other / unknown,250050,management ,1
-0,single,28,other / unknown,69588,unemployed ,0
+0,single,22,other,128387,skilled employee ,2
+0,single,30,other,250050,management ,1
+0,single,28,other,69588,unemployed ,0
 1,non-single ,23,high school,109547,skilled employee ,1
 1,non-single ,37,high school,78840,unemployed ,0
-0,single,26,other / unknown,131122,skilled employee ,0
+0,single,26,other,131122,skilled employee ,0
 0,single,33,high school,115403,skilled employee ,1
 1,non-single ,49,university,110291,skilled employee ,2
 1,non-single ,23,high school,64811,unemployed ,0
@@ -757,17 +757,17 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,32,high school,104957,skilled employee ,1
 0,single,74,university,89502,unemployed ,0
 0,single,39,high school,121313,skilled employee ,1
-0,single,31,other / unknown,98102,skilled employee ,0
+0,single,31,other,98102,skilled employee ,0
 0,single,35,high school,94554,skilled employee ,1
 1,non-single ,59,university,162591,skilled employee ,1
 1,non-single ,24,high school,106629,skilled employee ,2
-0,single,24,other / unknown,70400,unemployed ,0
-0,single,30,other / unknown,235660,management ,2
+0,single,24,other,70400,unemployed ,0
+0,single,30,other,235660,management ,2
 0,non-single ,27,high school,121747,skilled employee ,2
 0,non-single ,40,high school,85060,unemployed ,0
 0,non-single ,31,high school,87630,unemployed ,0
 1,non-single ,31,high school,119673,skilled employee ,0
-0,single,28,other / unknown,126060,skilled employee ,2
+0,single,28,other,126060,skilled employee ,2
 0,single,63,university,96145,unemployed ,0
 1,non-single ,26,high school,114830,skilled employee ,0
 1,non-single ,25,high school,194461,management ,2
@@ -779,21 +779,21 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,25,high school,120723,skilled employee ,1
 0,single,38,high school,215639,management ,1
 1,non-single ,67,graduate school,166712,skilled employee ,1
-0,single,25,other / unknown,136300,skilled employee ,1
+0,single,25,other,136300,skilled employee ,1
 0,single,60,university,166988,skilled employee ,2
-0,single,31,other / unknown,77265,unemployed ,0
+0,single,31,other,77265,unemployed ,0
 1,non-single ,23,high school,85967,unemployed ,0
 0,non-single ,60,university,212020,management ,0
 0,single,35,high school,126054,unemployed ,0
 0,single,40,high school,144589,skilled employee ,0
 0,single,38,high school,116723,skilled employee ,1
 0,single,50,high school,168637,skilled employee ,1
-0,single,27,other / unknown,139119,skilled employee ,1
+0,single,27,other,139119,skilled employee ,1
 1,non-single ,39,university,118610,skilled employee ,2
 0,single,41,high school,183312,management ,2
 0,non-single ,27,high school,96323,skilled employee ,0
 0,non-single ,51,university,149510,skilled employee ,2
-0,single,32,other / unknown,141922,skilled employee ,2
+0,single,32,other,141922,skilled employee ,2
 1,non-single ,22,high school,120233,skilled employee ,0
 0,single,51,high school,172790,skilled employee ,1
 1,non-single ,22,high school,66720,unemployed ,0
@@ -804,14 +804,14 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,24,high school,127250,skilled employee ,0
 0,single,35,high school,97290,skilled employee ,0
 1,non-single ,24,high school,106970,unemployed ,0
-0,single,24,other / unknown,168147,skilled employee ,2
+0,single,24,other,168147,skilled employee ,2
 0,non-single ,26,high school,68468,unemployed ,0
 0,single,65,university,120780,skilled employee ,2
 0,single,55,high school,231992,management ,2
 1,non-single ,26,high school,53903,unemployed ,0
 0,non-single ,26,high school,101511,skilled employee ,2
 0,non-single ,28,high school,69046,unemployed ,0
-0,single,24,other / unknown,171584,skilled employee ,1
+0,single,24,other,171584,skilled employee ,1
 0,single,54,high school,132367,skilled employee ,2
 0,single,46,high school,134433,skilled employee ,2
 1,non-single ,54,university,190518,skilled employee ,0
@@ -831,7 +831,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,38,high school,163451,skilled employee ,1
 0,single,44,high school,144900,skilled employee ,1
 1,non-single ,23,high school,97115,skilled employee ,2
-0,single,29,other / unknown,196568,skilled employee ,2
+0,single,29,other,196568,skilled employee ,2
 1,non-single ,42,university,158405,skilled employee ,0
 1,non-single ,25,high school,97376,unemployed ,0
 0,single,48,high school,108678,skilled employee ,1
@@ -839,8 +839,8 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,23,high school,61211,unemployed ,0
 0,single,63,university,138644,skilled employee ,0
 0,non-single ,46,university,124824,skilled employee ,2
-0,single,29,other / unknown,132852,skilled employee ,0
-0,single,28,other / unknown,81069,unemployed ,0
+0,single,29,other,132852,skilled employee ,0
+0,single,28,other,81069,unemployed ,0
 1,non-single ,23,high school,104094,skilled employee ,2
 0,single,50,high school,114853,skilled employee ,0
 0,single,47,high school,130344,skilled employee ,2
@@ -852,18 +852,18 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,33,high school,110844,skilled employee ,2
 0,single,43,high school,133105,skilled employee ,0
 0,single,35,high school,102042,skilled employee ,0
-0,single,32,other / unknown,69370,unemployed ,0
+0,single,32,other,69370,unemployed ,0
 0,single,45,high school,200298,skilled employee ,1
 0,non-single ,33,high school,117039,skilled employee ,2
 1,non-single ,40,university,107585,skilled employee ,2
-0,single,28,other / unknown,114429,skilled employee ,0
+0,single,28,other,114429,skilled employee ,0
 1,non-single ,29,high school,128234,skilled employee ,2
-0,single,26,other / unknown,128580,skilled employee ,2
-0,single,27,other / unknown,177757,skilled employee ,1
+0,single,26,other,128580,skilled employee ,2
+0,single,27,other,177757,skilled employee ,1
 0,non-single ,28,high school,106222,skilled employee ,0
 1,non-single ,35,high school,118428,skilled employee ,2
-0,single,32,other / unknown,139477,unemployed ,0
-0,single,25,other / unknown,71159,unemployed ,0
+0,single,32,other,139477,unemployed ,0
+0,single,25,other,71159,unemployed ,0
 1,non-single ,20,high school,131370,skilled employee ,2
 1,non-single ,27,high school,111567,skilled employee ,2
 0,single,42,high school,125482,skilled employee ,2
@@ -871,13 +871,13 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,24,high school,92498,skilled employee ,0
 1,non-single ,40,university,199711,skilled employee ,2
 0,single,46,high school,127588,skilled employee ,2
-0,single,26,other / unknown,107508,skilled employee ,2
+0,single,26,other,107508,skilled employee ,2
 1,non-single ,24,high school,94629,skilled employee ,2
-0,single,29,other / unknown,87598,unemployed ,2
+0,single,29,other,87598,unemployed ,2
 1,non-single ,40,university,161194,skilled employee ,1
 0,single,36,high school,137342,management ,2
-0,single,28,other / unknown,116848,skilled employee ,1
-0,single,27,other / unknown,125190,management ,1
+0,single,28,other,116848,skilled employee ,1
+0,single,27,other,125190,management ,1
 0,single,36,high school,153441,skilled employee ,0
 0,single,38,high school,195328,management ,2
 0,non-single ,48,university,190413,skilled employee ,0
@@ -886,15 +886,15 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,43,university,145313,skilled employee ,1
 1,non-single ,53,university,117005,skilled employee ,1
 0,single,34,high school,123243,skilled employee ,1
-0,single,23,other / unknown,237799,skilled employee ,1
+0,single,23,other,237799,skilled employee ,1
 0,single,34,high school,180617,management ,2
 0,single,40,high school,167019,skilled employee ,0
 0,single,43,high school,147745,management ,2
 0,single,46,high school,114254,skilled employee ,1
 0,single,38,high school,81155,unemployed ,0
 0,single,34,high school,151803,skilled employee ,2
-0,single,29,other / unknown,94356,skilled employee ,2
-0,single,31,other / unknown,200621,management ,2
+0,single,29,other,94356,skilled employee ,2
+0,single,31,other,200621,management ,2
 1,non-single ,28,high school,144448,management ,1
 1,non-single ,35,high school,150797,skilled employee ,0
 1,non-single ,33,high school,84404,unemployed ,0
@@ -904,8 +904,8 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,42,high school,194084,skilled employee ,2
 0,non-single ,40,high school,108278,skilled employee ,1
 0,single,36,high school,130987,management ,1
-0,single,20,other / unknown,116582,management ,2
-0,single,24,other / unknown,85270,unemployed ,0
+0,single,20,other,116582,management ,2
+0,single,24,other,85270,unemployed ,0
 0,non-single ,27,high school,129227,skilled employee ,0
 1,non-single ,46,university,108291,unemployed ,0
 1,non-single ,33,high school,103091,unemployed ,0
@@ -913,44 +913,44 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,25,high school,111502,unemployed ,0
 1,non-single ,25,high school,124750,skilled employee ,1
 0,non-single ,28,high school,146463,skilled employee ,2
-0,single,31,other / unknown,115075,skilled employee ,0
+0,single,31,other,115075,skilled employee ,0
 1,non-single ,32,high school,308491,management ,1
-0,single,32,other / unknown,126368,skilled employee ,0
+0,single,32,other,126368,skilled employee ,0
 0,single,68,university,287247,management ,2
 0,non-single ,33,high school,125535,skilled employee ,2
 0,single,39,high school,153223,management ,2
 1,non-single ,28,high school,106873,skilled employee ,1
 0,single,37,high school,268906,management ,1
 1,non-single ,22,high school,97757,skilled employee ,2
-0,single,30,other / unknown,112151,skilled employee ,1
+0,single,30,other,112151,skilled employee ,1
 0,non-single ,55,university,172909,skilled employee ,0
 0,single,46,high school,103387,skilled employee ,1
 1,non-single ,21,high school,93916,skilled employee ,2
 0,single,39,high school,189963,skilled employee ,2
 0,single,58,university,124191,skilled employee ,0
 0,single,43,high school,77205,unemployed ,0
-0,single,24,other / unknown,65917,unemployed ,0
+0,single,24,other,65917,unemployed ,0
 1,non-single ,22,high school,109676,skilled employee ,0
-0,single,30,other / unknown,95682,skilled employee ,2
+0,single,30,other,95682,skilled employee ,2
 0,single,42,high school,125516,skilled employee ,2
 1,non-single ,23,high school,99822,skilled employee ,0
-0,single,30,other / unknown,154854,management ,1
+0,single,30,other,154854,management ,1
 1,non-single ,28,high school,84582,unemployed ,0
 0,non-single ,30,high school,145800,management ,0
 0,single,42,high school,162869,skilled employee ,1
 0,single,46,high school,192379,management ,2
 0,single,45,high school,159757,management ,2
-0,single,31,other / unknown,69571,unemployed ,0
-0,single,31,other / unknown,93648,skilled employee ,2
+0,single,31,other,69571,unemployed ,0
+0,single,31,other,93648,skilled employee ,2
 0,single,42,high school,77472,unemployed ,0
 1,non-single ,46,university,121501,skilled employee ,0
 1,non-single ,30,high school,207262,skilled employee ,0
-0,single,30,other / unknown,143082,skilled employee ,2
+0,single,30,other,143082,skilled employee ,2
 0,single,38,high school,147760,management ,1
 0,non-single ,43,university,82082,unemployed ,0
-0,single,31,other / unknown,132991,skilled employee ,1
+0,single,31,other,132991,skilled employee ,1
 0,non-single ,40,high school,78436,unemployed ,0
-0,single,24,other / unknown,99737,skilled employee ,2
+0,single,24,other,99737,skilled employee ,2
 1,non-single ,28,high school,164915,skilled employee ,0
 1,non-single ,26,high school,223185,management ,1
 1,non-single ,29,high school,108400,skilled employee ,2
@@ -958,18 +958,18 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,49,high school,122186,unemployed ,0
 0,single,37,high school,79594,unemployed ,0
 0,single,45,high school,104355,unemployed ,0
-0,single,30,other / unknown,135894,skilled employee ,2
+0,single,30,other,135894,skilled employee ,2
 0,non-single ,30,high school,103699,skilled employee ,1
 0,non-single ,47,university,132145,skilled employee ,1
-0,single,29,other / unknown,117272,skilled employee ,2
+0,single,29,other,117272,skilled employee ,2
 0,single,35,high school,137932,skilled employee ,0
 0,non-single ,22,high school,63972,unemployed ,0
 1,non-single ,26,high school,113299,skilled employee ,2
-0,single,23,other / unknown,108540,unemployed ,0
+0,single,23,other,108540,unemployed ,0
 1,non-single ,54,university,174424,management ,2
 0,non-single ,29,high school,154991,skilled employee ,2
 0,single,40,high school,99723,unemployed ,0
-0,single,22,other / unknown,114584,skilled employee ,2
+0,single,22,other,114584,skilled employee ,2
 0,single,43,high school,135275,unemployed ,0
 1,non-single ,29,high school,41680,unemployed ,0
 0,single,36,high school,158769,skilled employee ,1
@@ -982,23 +982,23 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,49,high school,188594,skilled employee ,1
 0,single,33,high school,162827,management ,2
 1,non-single ,28,high school,178991,management ,2
-0,single,26,other / unknown,159739,skilled employee ,1
-0,single,30,other / unknown,73401,unemployed ,0
+0,single,26,other,159739,skilled employee ,1
+0,single,30,other,73401,unemployed ,0
 1,non-single ,25,high school,100794,skilled employee ,2
 0,non-single ,33,high school,167763,skilled employee ,1
 1,non-single ,64,graduate school,145174,skilled employee ,0
-0,single,29,other / unknown,176292,management ,1
+0,single,29,other,176292,management ,1
 0,single,48,high school,94024,unemployed ,0
 0,single,37,high school,93740,unemployed ,0
 0,single,34,high school,85685,unemployed ,0
 0,non-single ,23,high school,69997,unemployed ,0
-0,single,30,other / unknown,151938,management ,2
+0,single,30,other,151938,management ,2
 0,single,50,high school,122830,skilled employee ,1
 1,non-single ,31,high school,78489,unemployed ,0
 0,non-single ,40,high school,161999,management ,1
 0,single,38,high school,98032,skilled employee ,2
-0,single,23,other / unknown,96060,skilled employee ,0
-0,single,27,other / unknown,147968,skilled employee ,1
+0,single,23,other,96060,skilled employee ,0
+0,single,27,other,147968,skilled employee ,1
 1,non-single ,63,university,134853,skilled employee ,1
 0,single,66,university,157576,management ,2
 0,non-single ,43,university,203738,management ,1
@@ -1600,8 +1600,8 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,30,high school,140673,skilled employee ,1
 1,non-single ,36,high school,104235,skilled employee ,1
 1,non-single ,27,high school,54041,unemployed ,0
-0,single,23,other / unknown,107961,unemployed ,0
-0,single,31,other / unknown,113757,skilled employee ,0
+0,single,23,other,107961,unemployed ,0
+0,single,31,other,113757,skilled employee ,0
 1,non-single ,27,high school,94884,skilled employee ,0
 1,non-single ,25,high school,126041,skilled employee ,0
 1,non-single ,23,high school,64952,unemployed ,0
@@ -1613,23 +1613,23 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,40,high school,75043,unemployed ,0
 1,non-single ,24,high school,116473,unemployed ,0
 1,single,39,high school,96614,unemployed ,0
-0,single,24,other / unknown,66447,unemployed ,0
+0,single,24,other,66447,unemployed ,0
 1,single,50,high school,119068,skilled employee ,0
 1,non-single ,28,high school,122973,unemployed ,0
 1,non-single ,36,high school,81609,unemployed ,0
 0,single,36,high school,105519,skilled employee ,0
 1,non-single ,40,high school,86649,unemployed ,0
-1,single,31,other / unknown,76384,unemployed ,0
+1,single,31,other,76384,unemployed ,0
 0,non-single ,27,high school,67136,unemployed ,0
 1,non-single ,35,high school,93155,unemployed ,0
 0,single,51,high school,124183,unemployed ,0
-1,single,26,other / unknown,64860,unemployed ,0
+1,single,26,other,64860,unemployed ,0
 0,single,33,high school,87232,unemployed ,0
 1,non-single ,27,high school,92304,unemployed ,0
 0,single,38,high school,84254,unemployed ,0
-1,single,30,other / unknown,106696,skilled employee ,0
-0,single,28,other / unknown,113212,skilled employee ,0
-0,single,23,other / unknown,71076,unemployed ,0
+1,single,30,other,106696,skilled employee ,0
+0,single,28,other,113212,skilled employee ,0
+0,single,23,other,71076,unemployed ,0
 1,non-single ,23,high school,114270,unemployed ,0
 1,non-single ,26,high school,125538,skilled employee ,0
 1,non-single ,21,high school,92442,unemployed ,0
@@ -1637,20 +1637,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,24,high school,65707,unemployed ,0
 0,single,41,high school,120387,skilled employee ,0
 0,single,42,high school,120946,skilled employee ,0
-0,single,27,other / unknown,73265,unemployed ,0
+0,single,27,other,73265,unemployed ,0
 0,non-single ,40,high school,77481,unemployed ,0
 1,non-single ,34,high school,91282,unemployed ,0
 0,single,40,high school,104405,unemployed ,0
 0,single,33,high school,99646,skilled employee ,0
 1,single,49,high school,97791,unemployed ,0
-0,single,28,other / unknown,81878,unemployed ,0
+0,single,28,other,81878,unemployed ,0
 1,non-single ,26,high school,107908,skilled employee ,0
 1,single,40,high school,98608,unemployed ,0
 0,single,47,high school,95228,unemployed ,0
 1,non-single ,41,high school,128163,skilled employee ,0
 1,non-single ,29,high school,94325,unemployed ,0
 1,non-single ,37,high school,90815,unemployed ,0
-0,single,31,other / unknown,120719,skilled employee ,0
+0,single,31,other,120719,skilled employee ,0
 0,single,35,high school,110159,skilled employee ,0
 0,single,35,high school,124490,skilled employee ,0
 1,non-single ,29,high school,75161,unemployed ,0
@@ -1662,7 +1662,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,38,high school,104128,skilled employee ,0
 1,non-single ,30,high school,100313,skilled employee ,0
 1,single,45,high school,107387,skilled employee ,0
-0,single,24,other / unknown,84355,unemployed ,0
+0,single,24,other,84355,unemployed ,0
 1,single,35,high school,112723,skilled employee ,0
 1,non-single ,41,high school,115892,skilled employee ,0
 0,non-single ,30,high school,106597,skilled employee ,0
@@ -1671,20 +1671,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,25,high school,87537,unemployed ,0
 1,non-single ,23,high school,70569,unemployed ,0
 1,non-single ,27,high school,85294,unemployed ,0
-1,single,26,other / unknown,70905,unemployed ,0
-0,single,25,other / unknown,103716,unemployed ,0
+1,single,26,other,70905,unemployed ,0
+0,single,25,other,103716,unemployed ,0
 0,non-single ,27,high school,94947,skilled employee ,0
 1,single,42,high school,80116,unemployed ,0
 0,single,35,high school,86492,unemployed ,0
 1,non-single ,25,high school,88672,unemployed ,0
 1,non-single ,26,high school,82984,unemployed ,0
 0,single,38,high school,128100,skilled employee ,0
-1,single,28,other / unknown,72869,unemployed ,0
+1,single,28,other,72869,unemployed ,0
 0,non-single ,33,high school,112227,skilled employee ,0
 1,single,40,high school,94674,unemployed ,0
 1,non-single ,23,high school,101003,skilled employee ,0
-1,single,25,other / unknown,112924,skilled employee ,0
-1,single,28,other / unknown,108645,unemployed ,0
+1,single,25,other,112924,skilled employee ,0
+1,single,28,other,108645,unemployed ,0
 0,single,41,high school,69415,unemployed ,0
 1,single,50,high school,112204,unemployed ,0
 1,non-single ,23,high school,109700,skilled employee ,0
@@ -1693,49 +1693,49 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,37,high school,119602,unemployed ,0
 1,single,38,high school,81014,unemployed ,0
 1,non-single ,22,high school,68165,unemployed ,0
-1,single,30,other / unknown,88652,unemployed ,0
+1,single,30,other,88652,unemployed ,0
 0,single,38,high school,75705,unemployed ,0
 1,non-single ,36,high school,104189,skilled employee ,0
 0,single,41,high school,71603,unemployed ,0
 1,non-single ,29,high school,121914,skilled employee ,0
 1,non-single ,31,high school,106637,skilled employee ,0
-1,single,31,other / unknown,99800,skilled employee ,0
-1,single,21,other / unknown,67629,unemployed ,0
-0,single,32,other / unknown,120354,skilled employee ,0
+1,single,31,other,99800,skilled employee ,0
+1,single,21,other,67629,unemployed ,0
+0,single,32,other,120354,skilled employee ,0
 1,non-single ,35,high school,122110,skilled employee ,0
-0,single,29,other / unknown,89170,unemployed ,0
+0,single,29,other,89170,unemployed ,0
 1,single,34,high school,109195,skilled employee ,0
 1,single,38,high school,92392,unemployed ,0
 1,non-single ,33,high school,43805,unemployed ,0
 1,non-single ,28,high school,68389,unemployed ,0
 1,non-single ,28,high school,112521,skilled employee ,0
-0,single,21,other / unknown,59255,unemployed ,0
+0,single,21,other,59255,unemployed ,0
 1,non-single ,29,high school,98612,unemployed ,0
 1,non-single ,26,high school,70649,unemployed ,0
 1,single,40,high school,95228,unemployed ,0
-1,single,25,other / unknown,46865,unemployed ,0
+1,single,25,other,46865,unemployed ,0
 0,non-single ,20,high school,101688,skilled employee ,0
 1,non-single ,23,high school,62618,unemployed ,0
-1,single,27,other / unknown,102531,skilled employee ,0
+1,single,27,other,102531,skilled employee ,0
 1,single,36,high school,100737,skilled employee ,0
 1,non-single ,25,high school,107321,skilled employee ,0
 1,non-single ,25,high school,112879,unemployed ,0
 1,non-single ,34,high school,125372,unemployed ,0
-1,single,24,other / unknown,69419,unemployed ,0
+1,single,24,other,69419,unemployed ,0
 1,single,36,high school,124759,skilled employee ,0
 1,single,40,high school,79076,unemployed ,0
 0,single,39,high school,84779,unemployed ,0
 1,single,42,high school,77393,unemployed ,0
 0,single,35,high school,113187,unemployed ,0
 1,non-single ,27,high school,99100,skilled employee ,0
-0,single,27,other / unknown,64954,unemployed ,0
+0,single,27,other,64954,unemployed ,0
 1,non-single ,23,high school,103244,skilled employee ,0
 1,non-single ,32,high school,124975,skilled employee ,0
 0,non-single ,28,high school,133582,skilled employee ,0
-0,single,22,other / unknown,103519,skilled employee ,0
-0,single,31,other / unknown,117813,skilled employee ,0
+0,single,22,other,103519,skilled employee ,0
+0,single,31,other,117813,skilled employee ,0
 1,non-single ,22,high school,119902,skilled employee ,0
-0,single,23,other / unknown,70783,unemployed ,0
+0,single,23,other,70783,unemployed ,0
 1,non-single ,35,high school,125470,unemployed ,0
 1,non-single ,26,high school,109782,unemployed ,0
 1,non-single ,28,high school,78322,unemployed ,0
@@ -1745,9 +1745,9 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,single,47,high school,110287,skilled employee ,0
 1,single,49,high school,122391,unemployed ,0
 1,non-single ,30,high school,116399,skilled employee ,0
-1,single,32,other / unknown,81907,unemployed ,0
+1,single,32,other,81907,unemployed ,0
 1,non-single ,24,high school,97909,unemployed ,0
-1,single,25,other / unknown,68051,unemployed ,0
+1,single,25,other,68051,unemployed ,0
 0,single,33,high school,82414,unemployed ,0
 1,non-single ,34,high school,123089,skilled employee ,0
 1,non-single ,24,high school,66537,unemployed ,0
@@ -1757,9 +1757,9 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,26,high school,100892,skilled employee ,0
 1,single,36,high school,119560,skilled employee ,0
 1,single,35,high school,116176,unemployed ,0
-0,single,29,other / unknown,111854,skilled employee ,0
+0,single,29,other,111854,skilled employee ,0
 1,non-single ,26,high school,69831,unemployed ,0
-0,single,31,other / unknown,69375,unemployed ,0
+0,single,31,other,69375,unemployed ,0
 0,non-single ,26,high school,71310,unemployed ,0
 0,single,47,high school,73913,unemployed ,0
 0,non-single ,20,high school,95492,skilled employee ,0
@@ -1767,31 +1767,31 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,36,high school,116027,skilled employee ,0
 0,non-single ,31,high school,81987,unemployed ,0
 1,single,41,high school,83481,unemployed ,0
-1,single,31,other / unknown,72361,unemployed ,0
+1,single,31,other,72361,unemployed ,0
 1,non-single ,27,high school,106625,unemployed ,0
 1,non-single ,32,high school,123707,skilled employee ,0
 1,single,43,high school,79353,unemployed ,0
-1,single,32,other / unknown,68347,unemployed ,0
+1,single,32,other,68347,unemployed ,0
 1,non-single ,29,high school,115832,skilled employee ,0
 0,single,37,high school,89946,unemployed ,0
 1,single,35,high school,86319,unemployed ,0
 1,non-single ,23,high school,70963,unemployed ,0
 0,single,40,high school,106120,skilled employee ,0
 1,non-single ,26,high school,97856,skilled employee ,0
-0,single,28,other / unknown,61824,unemployed ,0
+0,single,28,other,61824,unemployed ,0
 1,non-single ,40,high school,103907,skilled employee ,0
 1,non-single ,26,high school,99953,unemployed ,0
 1,non-single ,23,high school,113413,skilled employee ,0
-0,single,26,other / unknown,107091,unemployed ,0
-0,single,26,other / unknown,124783,skilled employee ,0
+0,single,26,other,107091,unemployed ,0
+0,single,26,other,124783,skilled employee ,0
 1,single,49,high school,92281,unemployed ,0
 1,non-single ,26,high school,96219,skilled employee ,0
 1,single,35,high school,86221,unemployed ,0
 1,non-single ,24,high school,80962,unemployed ,0
 1,single,46,high school,78754,unemployed ,0
-0,single,26,other / unknown,60026,unemployed ,0
+0,single,26,other,60026,unemployed ,0
 0,single,47,high school,88157,unemployed ,0
-0,single,27,other / unknown,59881,unemployed ,0
+0,single,27,other,59881,unemployed ,0
 0,non-single ,41,high school,112818,skilled employee ,0
 1,non-single ,29,high school,102250,skilled employee ,0
 1,non-single ,28,high school,38980,unemployed ,0
@@ -1804,7 +1804,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,34,high school,87801,unemployed ,0
 1,non-single ,22,high school,92538,skilled employee ,0
 0,non-single ,33,high school,83687,unemployed ,0
-0,single,32,other / unknown,128310,skilled employee ,0
+0,single,32,other,128310,skilled employee ,0
 1,single,45,high school,104754,unemployed ,0
 0,non-single ,25,high school,68222,unemployed ,0
 1,non-single ,41,high school,97006,unemployed ,0
@@ -1814,18 +1814,18 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,single,37,high school,95972,unemployed ,0
 0,single,35,high school,105556,unemployed ,0
 0,single,34,high school,88701,unemployed ,0
-1,single,28,other / unknown,117710,skilled employee ,0
+1,single,28,other,117710,skilled employee ,0
 1,single,44,high school,76057,unemployed ,0
 0,non-single ,27,high school,100392,skilled employee ,0
 1,single,50,high school,113308,skilled employee ,0
 1,non-single ,18,high school,100924,skilled employee ,0
-1,single,25,other / unknown,72188,unemployed ,0
+1,single,25,other,72188,unemployed ,0
 1,non-single ,40,high school,70431,unemployed ,0
 0,non-single ,28,high school,110103,skilled employee ,0
 1,non-single ,23,high school,60825,unemployed ,0
 1,non-single ,35,high school,75100,unemployed ,0
 1,non-single ,28,high school,129327,skilled employee ,0
-1,single,23,other / unknown,95541,skilled employee ,0
+1,single,23,other,95541,skilled employee ,0
 0,non-single ,34,high school,112777,skilled employee ,0
 1,non-single ,29,high school,51496,unemployed ,0
 1,single,35,high school,102781,skilled employee ,0
@@ -1835,9 +1835,9 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,25,high school,124359,skilled employee ,0
 1,non-single ,27,high school,101620,unemployed ,0
 1,non-single ,24,high school,87964,unemployed ,0
-1,single,33,other / unknown,69523,unemployed ,0
+1,single,33,other,69523,unemployed ,0
 1,non-single ,24,high school,109486,skilled employee ,0
-1,single,28,other / unknown,77206,unemployed ,0
+1,single,28,other,77206,unemployed ,0
 1,single,35,high school,53608,unemployed ,0
 1,non-single ,30,high school,118677,skilled employee ,0
 0,single,43,high school,116512,skilled employee ,0
@@ -1851,8 +1851,8 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,28,high school,94518,skilled employee ,0
 1,non-single ,30,high school,114430,skilled employee ,0
 1,non-single ,26,high school,57165,unemployed ,0
-1,single,25,other / unknown,109610,unemployed ,0
-0,single,33,other / unknown,113619,skilled employee ,0
+1,single,25,other,109610,unemployed ,0
+0,single,33,other,113619,skilled employee ,0
 1,non-single ,30,high school,93854,skilled employee ,0
 1,non-single ,26,high school,129022,skilled employee ,0
 0,non-single ,23,high school,66804,unemployed ,0
@@ -1864,23 +1864,23 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,non-single ,39,high school,72385,unemployed ,0
 1,non-single ,27,high school,115934,unemployed ,0
 0,single,40,high school,93183,unemployed ,0
-0,single,24,other / unknown,63506,unemployed ,0
+0,single,24,other,63506,unemployed ,0
 1,single,52,high school,113619,skilled employee ,0
 1,non-single ,30,high school,121399,unemployed ,0
 1,non-single ,34,high school,78281,unemployed ,0
 1,single,38,high school,103926,skilled employee ,0
 0,non-single ,39,high school,89097,unemployed ,0
-1,single,29,other / unknown,80852,unemployed ,0
+1,single,29,other,80852,unemployed ,0
 0,non-single ,25,high school,65207,unemployed ,0
 1,non-single ,35,high school,93495,unemployed ,0
 0,single,53,high school,121970,unemployed ,0
-0,single,26,other / unknown,62027,unemployed ,0
+0,single,26,other,62027,unemployed ,0
 0,single,33,high school,88602,unemployed ,0
 0,non-single ,29,high school,89914,unemployed ,0
 0,single,39,high school,83342,unemployed ,0
-0,single,29,other / unknown,103439,skilled employee ,0
-0,single,26,other / unknown,115451,skilled employee ,0
-0,single,24,other / unknown,68250,unemployed ,0
+0,single,29,other,103439,skilled employee ,0
+0,single,26,other,115451,skilled employee ,0
+0,single,24,other,68250,unemployed ,0
 1,non-single ,21,high school,113630,unemployed ,0
 1,non-single ,26,high school,125880,skilled employee ,0
 1,non-single ,20,high school,91177,unemployed ,0
@@ -1888,20 +1888,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,24,high school,69021,unemployed ,0
 1,single,40,high school,122593,skilled employee ,0
 1,single,44,high school,122180,skilled employee ,0
-0,single,29,other / unknown,75160,unemployed ,0
+0,single,29,other,75160,unemployed ,0
 1,non-single ,39,high school,81973,unemployed ,0
 1,non-single ,35,high school,92194,unemployed ,0
 0,single,42,high school,107380,unemployed ,0
 1,single,32,high school,98023,skilled employee ,0
 0,single,48,high school,94868,unemployed ,0
-0,single,26,other / unknown,83442,unemployed ,0
+0,single,26,other,83442,unemployed ,0
 1,non-single ,26,high school,109887,skilled employee ,0
 0,single,42,high school,98876,unemployed ,0
 0,single,48,high school,94962,unemployed ,0
 1,non-single ,42,high school,130740,skilled employee ,0
 1,non-single ,27,high school,94095,unemployed ,0
 1,non-single ,37,high school,95071,unemployed ,0
-0,single,33,other / unknown,117308,skilled employee ,0
+0,single,33,other,117308,skilled employee ,0
 0,single,33,high school,112093,skilled employee ,0
 1,single,37,high school,123893,skilled employee ,0
 1,non-single ,31,high school,80189,unemployed ,0
@@ -1913,7 +1913,7 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,40,high school,103963,skilled employee ,0
 1,non-single ,29,high school,102397,skilled employee ,0
 0,single,43,high school,111563,skilled employee ,0
-0,single,23,other / unknown,88260,unemployed ,0
+0,single,23,other,88260,unemployed ,0
 1,single,34,high school,114767,skilled employee ,0
 1,non-single ,42,high school,113275,skilled employee ,0
 1,non-single ,33,high school,104755,skilled employee ,0
@@ -1922,20 +1922,20 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 1,non-single ,23,high school,87227,unemployed ,0
 1,non-single ,26,high school,69333,unemployed ,0
 1,non-single ,27,high school,87777,unemployed ,0
-0,single,24,other / unknown,70978,unemployed ,0
-0,single,27,other / unknown,104196,unemployed ,0
+0,single,24,other,70978,unemployed ,0
+0,single,27,other,104196,unemployed ,0
 1,non-single ,26,high school,97551,skilled employee ,0
 1,single,42,high school,78979,unemployed ,0
 1,single,37,high school,82500,unemployed ,0
 1,non-single ,26,high school,86306,unemployed ,0
 1,non-single ,24,high school,78762,unemployed ,0
 1,single,39,high school,125543,skilled employee ,0
-0,single,26,other / unknown,70336,unemployed ,0
+0,single,26,other,70336,unemployed ,0
 0,non-single ,35,high school,112975,skilled employee ,0
 0,single,38,high school,96681,unemployed ,0
 1,non-single ,24,high school,98922,skilled employee ,0
-1,single,26,other / unknown,109250,skilled employee ,0
-0,single,25,other / unknown,108960,unemployed ,0
+1,single,26,other,109250,skilled employee ,0
+0,single,25,other,108960,unemployed ,0
 0,single,40,high school,71302,unemployed ,0
 1,single,48,high school,107757,unemployed ,0
 1,non-single ,22,high school,111600,skilled employee ,0
@@ -1944,49 +1944,49 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,39,high school,118913,unemployed ,0
 0,single,39,high school,80987,unemployed ,0
 1,non-single ,21,high school,68790,unemployed ,0
-1,single,27,other / unknown,86462,unemployed ,0
+1,single,27,other,86462,unemployed ,0
 0,single,40,high school,76881,unemployed ,0
 1,non-single ,37,high school,107409,skilled employee ,0
 1,single,42,high school,69114,unemployed ,0
 1,non-single ,31,high school,119167,skilled employee ,0
 1,non-single ,31,high school,102018,skilled employee ,0
-0,single,30,other / unknown,97680,skilled employee ,0
-1,single,23,other / unknown,65062,unemployed ,0
-0,single,33,other / unknown,118144,skilled employee ,0
+0,single,30,other,97680,skilled employee ,0
+1,single,23,other,65062,unemployed ,0
+0,single,33,other,118144,skilled employee ,0
 1,non-single ,37,high school,124548,skilled employee ,0
-1,single,29,other / unknown,85637,unemployed ,0
+1,single,29,other,85637,unemployed ,0
 1,single,31,high school,113108,skilled employee ,0
 0,single,39,high school,93554,unemployed ,0
 1,non-single ,33,high school,42516,unemployed ,0
 0,non-single ,26,high school,72429,unemployed ,0
 1,non-single ,27,high school,110154,skilled employee ,0
-1,single,20,other / unknown,60965,unemployed ,0
+1,single,20,other,60965,unemployed ,0
 1,non-single ,27,high school,100618,unemployed ,0
 1,non-single ,26,high school,71021,unemployed ,0
 0,single,40,high school,94189,unemployed ,0
-0,single,24,other / unknown,44742,unemployed ,0
+0,single,24,other,44742,unemployed ,0
 1,non-single ,22,high school,103201,skilled employee ,0
 1,non-single ,24,high school,62335,unemployed ,0
-1,single,27,other / unknown,103787,skilled employee ,0
+1,single,27,other,103787,skilled employee ,0
 0,single,35,high school,99401,skilled employee ,0
 0,non-single ,27,high school,105197,skilled employee ,0
 1,non-single ,25,high school,115566,unemployed ,0
 1,non-single ,34,high school,125843,unemployed ,0
-1,single,24,other / unknown,67936,unemployed ,0
+1,single,24,other,67936,unemployed ,0
 1,single,34,high school,120863,skilled employee ,0
 0,single,42,high school,77317,unemployed ,0
 1,single,38,high school,84653,unemployed ,0
 0,single,42,high school,81606,unemployed ,0
 1,single,35,high school,113380,unemployed ,0
 1,non-single ,27,high school,100644,skilled employee ,0
-0,single,25,other / unknown,64037,unemployed ,0
+0,single,25,other,64037,unemployed ,0
 1,non-single ,23,high school,101350,skilled employee ,0
 1,non-single ,34,high school,126334,skilled employee ,0
 1,non-single ,28,high school,130877,skilled employee ,0
-0,single,21,other / unknown,103470,skilled employee ,0
-1,single,32,other / unknown,114588,skilled employee ,0
+0,single,21,other,103470,skilled employee ,0
+1,single,32,other,114588,skilled employee ,0
 1,non-single ,21,high school,120682,skilled employee ,0
-0,single,25,other / unknown,66628,unemployed ,0
+0,single,25,other,66628,unemployed ,0
 1,non-single ,35,high school,124447,unemployed ,0
 1,non-single ,25,high school,106567,unemployed ,0
 1,non-single ,31,high school,78758,unemployed ,0
@@ -1996,6 +1996,6 @@ Sex,Marital_status,Age,Education,Income,Occupation,Settlement_size
 0,single,45,high school,113414,skilled employee ,0
 1,single,47,high school,123525,unemployed ,0
 1,non-single ,27,high school,117744,skilled employee ,0
-0,single,31,other / unknown,86400,unemployed ,0
+0,single,31,other,86400,unemployed ,0
 1,non-single ,24,high school,97968,unemployed ,0
-0,single,25,other / unknown,68416,unemployed ,0
+0,single,25,other,68416,unemployed ,0
