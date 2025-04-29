@@ -46,3 +46,32 @@ get_mode <- function(x) {
 
 get_mode(CustomerData$Age)
 get_mode(CustomerData$Income)
+
+# Measures of Distribution
+# Range
+range(CustomerData$Age)
+range(CustomerData$Income)
+
+# Standard Deviation
+sd(CustomerData$Age)
+sd(CustomerData$Income)
+
+# Variance
+var(CustomerData$Age)
+var(CustomerData$Income)
+
+# Skewness and Kurtosis (need e1071 package)
+library(e1071)
+
+skewness(CustomerData$Income)
+kurtosis(CustomerData$Income)
+
+# Measures of Relationship
+# Correlation between Age and Income
+cor(CustomerData$Age, CustomerData$Income)
+
+# Cross-tabulation between categorical variables
+table(CustomerData$Sex, CustomerData$Marital_status)
+
+# Visualization (optional, if you're using plots)
+plot(CustomerData$Age, CustomerData$Income, main="Age vs Income", xlab="Age", ylab="Income")
