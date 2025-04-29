@@ -99,3 +99,12 @@ print(gbm_model)
 # Evaluate model performance
 gbm_model$results  # RMSE, Rsquared, MAE
 
+# Compare models by RMSE
+results <- resamples(list(LM = lm_model, RF = rf_model, GBM = gbm_model))
+
+# Summary of model performance
+summary(results)
+
+# Visualize the comparison
+bwplot(results)
+
