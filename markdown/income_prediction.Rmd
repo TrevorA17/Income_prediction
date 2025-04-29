@@ -48,3 +48,24 @@ Refer to the APA 7th edition manual for rules on how to cite datasets: <https://
 # Understanding the Dataset (Exploratory Data Analysis (EDA))
 
 ## Loading the Dataset
+```{r Load the dataset}
+# Load customer data with specified column classes
+CustomerData <- read.csv("sgdata.csv", colClasses = c(
+  Sex = "factor",                  # 0 or 1, treat as categorical
+  Marital_status = "factor",      # single or non-single
+  Age = "numeric",
+  Education = "factor",           # high school or university
+  Income = "numeric",
+  Occupation = "factor",          # skilled employee or unemployed
+  Settlement_size = "factor"      # 0, 1, 2 - treat as categorical size class
+))
+
+# View the structure of the dataset
+str(CustomerData)
+
+# Preview the data
+head(CustomerData)
+
+View(CustomerData)
+```
+
