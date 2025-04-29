@@ -25,6 +25,7 @@ Trevor Okinda
   - [Cross-validation](#cross-validation)
   - [Training Different Models](#training-different-models)
   - [Performance Comparison](#performance-comparison)
+  - [Saving Model](#saving-model)
 
 # Student Details
 
@@ -795,3 +796,109 @@ bwplot(results)
 ```
 
 ![](income_prediction_files/figure-gfm/Performance%20Comparison-1.png)<!-- -->
+
+## Saving Model
+
+``` r
+# Save the GBM model to a file
+saveRDS(gbm_model, "./models/saved_gbm_model.rds")
+
+# Load the saved GBM model
+loaded_gbm_model <- readRDS("./models/saved_gbm_model.rds")
+
+# Example of new data for prediction (adjust this to match your dataset)
+new_data <- data.frame(
+  Sex = factor(0, levels = levels(train_data$Sex)),                  # Sex as factor (0 or 1)
+  Marital_status = factor("single", levels = levels(train_data$Marital_status)),  # single or non-single
+  Age = 40,
+  Education = factor("high school", levels = levels(train_data$Education)),  # Make sure this matches your training data levels
+  Occupation = factor("skilled employee", levels = levels(train_data$Occupation)),  # Adjust for valid categories in the model
+  Settlement_size = factor(1, levels = levels(train_data$Settlement_size))  # Settlement_size as factor (0, 1, 2)
+)
+
+# Use the loaded GBM model to make predictions
+predictions_loaded_model <- predict(loaded_gbm_model, newdata = new_data)
+
+# Print the predictions
+print(predictions_loaded_model)
+```
+
+    ## numeric(0)
+
+``` r
+#Debugging
+# Check the loaded model
+print(loaded_gbm_model)
+```
+
+    ## Stochastic Gradient Boosting 
+    ## 
+    ## 1400 samples
+    ##    3 predictor
+    ## 
+    ## No pre-processing
+    ## Resampling: Cross-Validated (5 fold) 
+    ## Summary of sample sizes: 1120, 1120, 1120, 1120, 1120 
+    ## Resampling results across tuning parameters:
+    ## 
+    ##   interaction.depth  n.trees  RMSE      Rsquared   MAE     
+    ##   1                   50      28312.46  0.4969711  20662.88
+    ##   1                  100      26317.75  0.5477560  19424.70
+    ##   1                  150      25861.32  0.5565363  19253.65
+    ##   2                   50      25565.77  0.5657784  19108.30
+    ##   2                  100      25419.40  0.5688035  19081.04
+    ##   2                  150      25460.70  0.5670042  19103.03
+    ##   3                   50      25396.46  0.5692997  19080.10
+    ##   3                  100      25422.89  0.5676387  19136.49
+    ##   3                  150      25465.38  0.5666494  19189.10
+    ## 
+    ## Tuning parameter 'shrinkage' was held constant at a value of 0.1
+    ## 
+    ## Tuning parameter 'n.minobsinnode' was held constant at a value of 10
+    ## RMSE was used to select the optimal model using the smallest value.
+    ## The final values used for the model were n.trees = 50, interaction.depth =
+    ##  3, shrinkage = 0.1 and n.minobsinnode = 10.
+
+``` r
+# Check the structure of new_data
+str(new_data)
+```
+
+    ## 'data.frame':    1 obs. of  6 variables:
+    ##  $ Sex            : Factor w/ 2 levels "0","1": 1
+    ##  $ Marital_status : Factor w/ 2 levels "non-single ",..: 2
+    ##  $ Age            : num 40
+    ##  $ Education      : Factor w/ 4 levels "graduate school",..: 2
+    ##  $ Occupation     : Factor w/ 3 levels "management ",..: NA
+    ##  $ Settlement_size: Factor w/ 3 levels "0","1","2": 2
+
+``` r
+# Check for missing values in new_data
+any(is.na(new_data))
+```
+
+    ## [1] TRUE
+
+``` r
+# Identify which columns have missing values in new_data
+colSums(is.na(new_data))
+```
+
+    ##             Sex  Marital_status             Age       Education      Occupation 
+    ##               0               0               0               0               1 
+    ## Settlement_size 
+    ##               0
+
+``` r
+# Replace missing value in Occupation with the most frequent value
+most_frequent_occupation <- names(sort(table(new_data$Occupation), decreasing = TRUE))[1]
+new_data$Occupation[is.na(new_data$Occupation)] <- most_frequent_occupation
+
+# Make predictions again after handling missing values
+predictions_loaded_model <- predict(loaded_gbm_model, newdata = new_data)
+
+# Print predictions
+print(predictions_loaded_model)
+```
+
+    ## [1] 162255.7
