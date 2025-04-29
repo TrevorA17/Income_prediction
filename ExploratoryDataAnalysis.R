@@ -75,3 +75,23 @@ table(CustomerData$Sex, CustomerData$Marital_status)
 
 # Visualization (optional, if you're using plots)
 plot(CustomerData$Age, CustomerData$Income, main="Age vs Income", xlab="Age", ylab="Income")
+
+# One-way ANOVA: Does Income differ by Education level?
+anova_edu <- aov(Income ~ Education, data = CustomerData)
+summary(anova_edu)
+
+# One-way ANOVA: Does Income differ by Occupation?
+anova_occ <- aov(Income ~ Occupation, data = CustomerData)
+summary(anova_occ)
+
+# One-way ANOVA: Does Income differ by Sex?
+anova_sex <- aov(Income ~ Sex, data = CustomerData)
+summary(anova_sex)
+
+# Tukey HSD post-hoc test
+TukeyHSD(anova_edu)
+TukeyHSD(anova_occ)
+
+# Boxplot to visualize income differences
+boxplot(Income ~ Education, data = CustomerData, main = "Income by Education", col = "lightblue")
+boxplot(Income ~ Occupation, data = CustomerData, main = "Income by Occupation", col = "lightgreen")
