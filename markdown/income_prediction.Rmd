@@ -69,3 +69,279 @@ head(CustomerData)
 View(CustomerData)
 ```
 
+## Measures of Frequency
+```{r MOF}
+# Measures of Frequency
+# Frequency of each category
+table(CustomerData$Sex)
+table(CustomerData$Marital_status)
+table(CustomerData$Education)
+table(CustomerData$Occupation)
+table(CustomerData$Settlement_size)
+
+# Proportions
+prop.table(table(CustomerData$Sex))
+prop.table(table(CustomerData$Marital_status))
+```
+
+## Measures of Central Tendency
+```{r MOCT}
+# Measures of Central Tendency
+# Mean
+mean(CustomerData$Age)
+mean(CustomerData$Income)
+
+# Median
+median(CustomerData$Age)
+median(CustomerData$Income)
+
+# Mode function (custom)
+get_mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+get_mode(CustomerData$Age)
+get_mode(CustomerData$Income)
+```
+
+## Measures of Distribution
+```{r MOD}
+# Measures of Distribution
+# Range
+range(CustomerData$Age)
+range(CustomerData$Income)
+
+# Standard Deviation
+sd(CustomerData$Age)
+sd(CustomerData$Income)
+
+# Variance
+var(CustomerData$Age)
+var(CustomerData$Income)
+
+# Skewness and Kurtosis (need e1071 package)
+library(e1071)
+
+skewness(CustomerData$Income)
+kurtosis(CustomerData$Income)
+```
+
+## Measures of Relationship
+```{r MOR}
+# Measures of Relationship
+# Correlation between Age and Income
+cor(CustomerData$Age, CustomerData$Income)
+
+# Cross-tabulation between categorical variables
+table(CustomerData$Sex, CustomerData$Marital_status)
+
+# Visualization (optional, if you're using plots)
+plot(CustomerData$Age, CustomerData$Income, main="Age vs Income", xlab="Age", ylab="Income")
+```
+
+## ANOVA
+```{r ANOVA}
+# One-way ANOVA: Does Income differ by Education level?
+anova_edu <- aov(Income ~ Education, data = CustomerData)
+summary(anova_edu)
+
+# One-way ANOVA: Does Income differ by Occupation?
+anova_occ <- aov(Income ~ Occupation, data = CustomerData)
+summary(anova_occ)
+
+# One-way ANOVA: Does Income differ by Sex?
+anova_sex <- aov(Income ~ Sex, data = CustomerData)
+summary(anova_sex)
+
+# Tukey HSD post-hoc test
+TukeyHSD(anova_edu)
+TukeyHSD(anova_occ)
+
+# Boxplot to visualize income differences
+boxplot(Income ~ Education, data = CustomerData, main = "Income by Education", col = "lightblue")
+boxplot(Income ~ Occupation, data = CustomerData, main = "Income by Occupation", col = "lightgreen")
+
+```
+
+## Plots
+```{r Plots}
+# Load ggplot2
+library(ggplot2)
+
+# Bar plot for Education
+ggplot(CustomerData, aes(x = Education)) +
+  geom_bar(fill = "steelblue") +
+  ggtitle("Frequency of Education Levels")
+
+# Bar plot for Occupation
+ggplot(CustomerData, aes(x = Occupation)) +
+  geom_bar(fill = "darkgreen") +
+  ggtitle("Frequency of Occupation")
+
+# Histogram for Income
+ggplot(CustomerData, aes(x = Income)) +
+  geom_histogram(fill = "orange", bins = 10) +
+  ggtitle("Histogram of Income")
+
+# Boxplot for Age
+ggplot(CustomerData, aes(y = Age)) +
+  geom_boxplot(fill = "purple") +
+  ggtitle("Boxplot of Age")
+
+ggplot(CustomerData, aes(x = Age, y = Income)) +
+  geom_point(color = "dodgerblue") +
+  ggtitle("Age vs Income")
+
+ggplot(CustomerData, aes(x = Education, y = Income)) +
+  geom_boxplot(fill = "salmon") +
+  ggtitle("Income by Education")
+
+ggplot(CustomerData, aes(x = Age, y = Income, color = Sex)) +
+  geom_point(size = 3) +
+  ggtitle("Age vs Income by Sex")
+
+ggplot(CustomerData, aes(x = Education, fill = Marital_status)) +
+  geom_bar(position = "stack") +
+  ggtitle("Education by Marital Status")
+
+```
+
+# Preprocessing and Data Transformation
+## Missing Values
+```{r Missing Values}
+# Are there any missing values?
+anyNA(CustomerData)
+
+# Total number of missing values in the dataset
+sum(is.na(CustomerData))
+
+# Number of missing values per column
+colSums(is.na(CustomerData))
+
+# Install and load the visdat package (if not already)
+library(visdat)
+
+# Visualize missing data
+vis_miss(CustomerData)
+```
+
+# Training Models
+## Data Splitting
+```{r Data Splitting}
+# Install package if needed
+library(caTools)
+
+# Set seed for reproducibility
+set.seed(123)
+
+# Split: 70% training, 30% testing
+split <- sample.split(CustomerData$Income, SplitRatio = 0.7)
+
+# Create training and test sets
+train_data <- subset(CustomerData, split == TRUE)
+test_data <- subset(CustomerData, split == FALSE)
+
+# Check sizes
+nrow(train_data)
+nrow(test_data)
+
+```
+
+## Bootstrapping
+```{r Bootstrapping}
+# Install and load the boot package
+library(boot)
+
+# Bootstrapping function (for linear regression)
+boot_fn <- function(data, indices) {
+  boot_data <- data[indices, ]
+  model <- lm(Income ~ Age + Education + Occupation, data = boot_data)
+  return(coef(model))  # Return coefficients (you can return other stats)
+}
+
+# Bootstrapping with 1000 iterations
+set.seed(123)
+boot_results <- boot(data = train_data, statistic = boot_fn, R = 1000)
+
+# Summary of bootstrap results
+summary(boot_results)
+```
+
+## Cross-validation
+```{r Cross-validation}
+library(caret)
+# Set the seed for reproducibility
+set.seed(123)
+
+# Define cross-validation settings
+train_control <- trainControl(method = "cv", number = 5)  # 5-fold cross-validation
+
+# Train a linear regression model with cross-validation
+model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+               method = "lm", trControl = train_control)
+
+# View the model results (e.g., RMSE, Rsquared)
+print(model)
+
+# Cross-validation results: RMSE, R^2, and MAE (Mean Absolute Error)
+model$results
+```
+
+## Training Different Models
+```{r Different models}
+# Train a linear regression model with 5-fold cross-validation
+set.seed(123)
+
+train_control <- trainControl(method = "cv", number = 5)  # 5-fold cross-validation
+
+# Linear regression model
+lm_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                  method = "lm", trControl = train_control)
+
+# Display the model summary
+print(lm_model)
+
+# Evaluate model performance
+lm_model$results  # RMSE, Rsquared, MAE
+
+# Train a Random Forest model with 5-fold cross-validation
+set.seed(123)
+
+rf_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                  method = "rf", trControl = train_control)
+
+# Display the model summary
+print(rf_model)
+
+# Evaluate model performance
+rf_model$results  # RMSE, Rsquared, MAE
+
+# Train a Gradient Boosting Machine (GBM) model with 5-fold cross-validation
+set.seed(123)
+
+gbm_model <- train(Income ~ Age + Education + Occupation, data = train_data, 
+                   method = "gbm", trControl = train_control, verbose = FALSE)
+
+# Display the model summary
+print(gbm_model)
+
+# Evaluate model performance
+gbm_model$results  # RMSE, Rsquared, MAE
+```
+
+## Performance Comparison
+```{r Performance Comparison}
+# Compare models by RMSE
+results <- resamples(list(LM = lm_model, RF = rf_model, GBM = gbm_model))
+
+# Summary of model performance
+summary(results)
+
+# Visualize the comparison
+bwplot(results)
+
+
+```
+
+
